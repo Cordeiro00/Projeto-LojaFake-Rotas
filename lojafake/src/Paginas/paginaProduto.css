@@ -1,0 +1,62 @@
+body, html {
+    background-color: #f3f2f8;  
+}
+
+#Fake{
+    width: 200px;
+    height: auto;
+    position: relative;
+    left: 50%;
+}
+
+.cabecalho {
+    background-color: #6c5b7b;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 10px 0;
+    color: white;
+}
+
+
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 5px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s;
+    border-radius: 5px 5px 0 0;
+}
+
+
+.footer {
+    background-color: #6c5b7b;  /* Tom de roxo que estamos usando */
+    color: #f3f2f8;            /* Cor clara para o texto */
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer a {
+    color: #f3f2f8;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #ffffff;
+}
+
+.footer .footer-section {
+    margin: 0 20px;
+}

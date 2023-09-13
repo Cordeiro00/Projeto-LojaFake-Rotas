@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+#logo{
+  width: 600px;
+  height: auto;
+  top: -330px;
+}
+
+.App{
+  background-image: url(https://technologywolf.net/wp-content/uploads/2022/10/shop_laptop_w-scaled.jpg);
+  background-size: 2000px 1000px;
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+  background-position: center; /* Centraliza a imagem no elemento */
+}
+
+.apresentacao {
+  position: absolute;
+  top: 600px;
+  left: 50%;
+  transform: translate(-50%, -45%);
+  color: white;  
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.butao{
+  text-decoration: none;
+}
